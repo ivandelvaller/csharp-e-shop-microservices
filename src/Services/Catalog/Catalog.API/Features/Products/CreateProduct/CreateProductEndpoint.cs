@@ -5,7 +5,7 @@ using Mapster;
 namespace Catalog.API.Features.Products.CreateProduct;
 
 public record CreateProductRequest(
-    Guid ProductId,
+    Guid Id,
     string Name,
     string Description,
     string ImageUrl,
