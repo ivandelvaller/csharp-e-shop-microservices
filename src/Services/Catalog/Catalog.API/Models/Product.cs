@@ -1,6 +1,6 @@
 namespace Catalog.API.Models;
 
-public class Product
+public class Product : BaseModel
 {
     public Guid Id { get; set; }
 
